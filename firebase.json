@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/cadep-aplication",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
